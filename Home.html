@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+    <div class="parent-container">
+        <canvas id="canvas"></canvas>
+        <div class="starting-container">
+            <h3>Player Name</h3>
+            <br>
+            <input type="text" id="player_name" placeholder="Nickname">
+            <br><br>
+            <div>Choose your Dinosaur</div>
+            <br> <br>
+            <div class="row">
+                <div class="Column">
+                    <div class="box"><button class="weight" id="a">Pink</button></div>
+                    <div class="box"><button class="weight" id="b">Red</button></div>
+                    <div class="box"><button class="weight" id="c">Blue</button></div>
+                </div>
+                <br>
+                <div class="Column">
+                    <div class="box"><button class="weight" id="d">yellow</button></div>
+                    <div class="box"><button class="weight" id="e">Green</button></div>
+                    <div class="box"><button class="weight" id="f">Brown</button></div>
+                </div>
+                <br>
+                <div class="Column">
+                    <div class="box"><button class="weight" id="g">Black</button></div>
+                    <div class="box"><button class="weight" id="h">white</button></div>
+                    <div class="box"><button class="weight" id="i">Orange</button></div>
+                </div>
+            </div>
+            <br> <br>
+            <button onclick="startGame()" id="Start">Start Game</button>
+            <br>
+            <br>
+            <div class="bigbox">
+                <div class="box1"><img src="1.png" alt="Gmail" width="20px" height="20px" class="text"></div>
+                <div class="box1"><img src="2.png" alt="Facebook" width="20px" height="20px"></div>
+                <div class="box1"><img src="3.jpg" alt="Instagram" width="20px" height="20px"></div>
+                <div class="box1"><img src="4.jpg" alt="Twitter" width="20px" height="20px"></div>
+                <div class="box1"><img src="5.png" alt="Yahoo" width="20px" height="20px"></div>
+
+            </div> <br>
+        </div>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+
+</html>
